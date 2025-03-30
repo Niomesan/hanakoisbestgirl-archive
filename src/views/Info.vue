@@ -1,7 +1,7 @@
 <template>
     <p class="w-[90%] lg:w-[57%] text-[#666] text-[14px] m-auto">The hanakoisbestgirl website has been archived and
         subsequently transferred under the <a href="https://www.fhs.sh">FHS</a>
-        umbrella. This means that we are responsible for maintaining it instead of the previous owner.</p>
+        umbrella. This means that we are maintaining this site instead of the previous owner(s).</p>
 
     <p class="w-[90%] lg:w-[57%] text-[#666] text-[14px] m-auto">Please contact us over at <span
             class=" bg-gray-200 rounded-lg p-1">staff@fhs.sh</span> or join our <a
