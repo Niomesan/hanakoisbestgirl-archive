@@ -1,6 +1,6 @@
 <template>
   <Mobilerouter v-if="screenSize <= 768" />
-  <h1 class="w-[90%] m-auto text-center text-[36px] tracking-wide lg:pt-10">HANAKO IS BEST GIRL</h1>
+  <h1 @click="redirectToHome" class="w-[90%] m-auto text-center text-[36px] tracking-wide lg:pt-10 hover:cursor-pointer">HANAKO IS BEST GIRL</h1>
   <p class="text-[#AAA] text-center text-[12px] font-bold tracking-wider w-[90%] m-auto pb-[50px] lg:pb-2">A website
     devoted to
     collecting images of the best girl in Katawa Shoujo</p>
@@ -112,4 +112,8 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('resize', handleResize);
 });
+
+const redirectToHome = () => {
+  window.location.href = '/';
+};
 </script>
